@@ -5,7 +5,7 @@ html{
 header{
     height: 300px;
     max-width: 960px;
-    background-image: url('/assets/detective.jpg');
+    background-image: url('assets/detective.jpg');
     background-size: 960px, 300px;
     margin: 0 auto;
     padding: 10px;
