@@ -1,0 +1,45 @@
+html{
+    background-color: lightgray;
+}
+
+header{
+    height: 300px;
+    max-width: 960px;
+    background-image: url('/Assets/B&Bhead.jpg');
+    background-size: 960px, 300px;
+    margin: 0 auto;
+}
+
+h2{
+    color: royalblue;
+}
+
+#company{
+    color: white;
+    padding-top: 15px;
+}
+#slogan{
+    color: white;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 40%);
+    height: 300px;
+    padding-inline-start: 15px;
+}
+
+.goals{
+    list-style: square inside;
+}
+
+#date{
+    color: royalblue;
+}
+
+footer{
+    text-align: center;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 9pt;
+    border-radius: 1px;
+}
