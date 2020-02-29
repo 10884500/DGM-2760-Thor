@@ -1,0 +1,41 @@
+html{
+    background-color: lightgray;
+}
+
+header{
+    height: 300px;
+    max-width: 960px;
+    background-image: url('/assets/detective.jpg');
+    background-size: 960px, 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h2{
+    color: royalblue;
+}
+
+#company{
+    color: white;
+    padding-top: 15px;
+}
+#slogan{
+    color: white;
+}
+
+#goals{
+    list-style: square inside;
+}
+
+#myWin #myDoc{
+    color: royalblue;
+}
+
+footer{
+    text-align: center;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 9pt;
+    border-radius: 1px;
+}
