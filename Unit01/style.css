@@ -5,7 +5,7 @@ html{
 header{
     height: 300px;
     max-width: 960px;
-    background-image: url('/Assets/B&Bhead.jpg');
+    background-image: url('Assets/B&Bhead.jpg');
     background-size: 960px, 300px;
     margin: 0 auto;
 }
