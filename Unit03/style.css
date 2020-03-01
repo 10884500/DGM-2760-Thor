@@ -5,7 +5,7 @@ html{
 header{
     height: 300px;
     max-width: 960px;
-    background-image: url('assets/detective.jpg');
+    background-image: url('');
     background-size: 960px, 300px;
     margin: 0 auto;
     padding: 10px;
@@ -27,8 +27,19 @@ h2{
     list-style: square inside;
 }
 
-#myWin #myDoc{
-    color: royalblue;
+article {
+    background-color: white;
+    height: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#ribbon {
+    display: inline;
+}
+#ribbon img {
+    height: 50px;
+    width: 50px;
 }
 
 footer{
