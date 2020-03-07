@@ -35,8 +35,7 @@ document.querySelector("#sortTrees").onclick = () => {
 document.querySelector("#lowerTrees").onclick = () => {
     trees.toLowerCase();
     listTrees();
-    }
-
+}
 
 document.querySelector("#remove_t1").onclick = () => {
   if (trees.length > 0) {
@@ -50,7 +49,7 @@ document.querySelector("#remove_t1").onclick = () => {
 
 document.querySelector("#remove_last").onclick = () => {
   if (trees.length > 0) {
-    trees.unshift();
+    trees.pop();
     listTrees();
   } else {
     errorElement.textContent =
