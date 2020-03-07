@@ -23,7 +23,23 @@ button {
     background-color: lightsalmon;
     border: 1px solid darkgoldenrod;
     border-radius: 15px;
+}
 
+main div#displayResults span {
+    color: royalblue;
+}
+
+#asides {
+    background-color: silver;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#error {
+    color: red;
 }
 
 footer{
