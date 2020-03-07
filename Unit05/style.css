@@ -1,0 +1,36 @@
+html{
+    background-color: darkgray;
+}
+
+header{
+    height: 300px;
+    max-width: 960px;
+    background-image: url('assets/header.jpeg');
+    background-size: 960px, 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h2{
+    color: greenyellow;
+}
+
+#goals{
+    list-style: square inside;
+}
+
+button {
+    background-color: lightsalmon;
+    border: 1px solid darkgoldenrod;
+    border-radius: 15px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 9pt;
+    border-radius: 1px;
+}
