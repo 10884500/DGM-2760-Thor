@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Unit08-Pizza Emporium</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Pizza Emporium</h1>
+        <h2>Literal Objects</h2>
+      </header>
+
+      <h1>Pizza Emporium</h1>
+
+      <h2>What I learned</h2>
+      <ul class="goals">
+        <li>Creation of object literals with properties and methods</li>
+        <li>Setting properties in an object</li>
+        <li>Accessing properties and methods of objects</li>
+        <li>Use of math operators and template literals</li>
+        <li>
+          Use of querySelectors and textContent to dynamically change text on a
+          screen
+        </li>
+      </ul>
+
+      <h2>Pizza Size</h2>
+      <div id="size">
+        <button onclick="pizza.size='Small'">Small</button>
+        <button onclick="pizza.size='Medium'">Medium</button>
+        <button onclick="pizza.size='Large'">Large</button>
+      </div>
+      <h2>Crust Type</h2>
+      <div id="crust">
+        <button onclick="pizza.crustType='Thin Crust'">Thin Crust</button>
+        <button onclick="pizza.crustType='Thick Crust'">Thick Crust</button>
+      </div>
+      <h2>Pick One Topping</h2>
+      <div id="topping">
+        <button onclick="pizza.topping='Pepperoni'">Pepperoni</button>
+        <button onclick="pizza.topping='Ham'">Ham</button>
+        <button onclick="pizza.topping='Sausage'">Sausage</button>
+      </div>
+      <h2>Build The Pizza</h2>
+      <div id="build">
+        <button onclick="pizza.build()">Build Pizza</button>
+      </div>
+      <h2>Delivery or Carryout?</h2>
+      <div id="order">
+        <button onclick="pizza.order='Delivery'">Delivery</button>
+        <button onclick="pizza.order='Carryout'">Carryout</button>
+      </div>
+      <h2>Order Complete?</h2>
+      <div id="type">
+        <button onclick="pizza.placeOrder()">Complete Order</button>
+      </div>
+
+      <div id="feedback"></div>
+      <div id="pizzaOrder"></div>
+
+      <footer>Assignment for DGM2760 by Trevor Thompson</footer>
+    </main>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>
