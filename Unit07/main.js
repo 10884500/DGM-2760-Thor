@@ -4,17 +4,18 @@ const pizza = {
 	topping: "",
 	order: "",
 
-	build: function() {
+	build: () => {
 		var buildPizza = "You have built a "+pizza.size+", "+pizza.crustType+" pizza with "+pizza.topping+".";
 		document.getElementById('feedback').innerHTML = buildPizza;
     },
     
-	placeOrder: function() {
-		if (pizza.order == 'Delivery') {
-			document.getElementById('pizzaOrder').innerHTML = "Thank you, your order will be there in 20 minutes.";
-		}
-		if (pizza.order == 'Carryout') {
-			document.getElementById('pizzaOrder').innerHTML = "Thank you! Your order will be ready to pick up in about 15 minutes.";
-		} 
+	list: () => {
+		let flour = 1
+		if (pizza.crustType === 'thick crust') flour *= 2
+		if (pizza.size === 'large') flour *= 2
+		if (pizza.crustType === 'thin crust') flour *= 1
+		if (pizza.size === 'medium') flour *= 1
+		message = `You need to pickup ${flour} flour for this pizza`
+		document.getElementById('shop').innerHTML = message;
 	}
 };
