@@ -1,36 +1,128 @@
-html{
-    background-color: darkgray;
+body, h1, h2, h3, h4, h5, h6, ul, li {margin:0; padding: 0;}
+body {
+	font-size: 16px;
 }
 
-header{
-    height: 300px;
-    max-width: 960px;
-    background-image: url('assets/header.jpg');
-    background-size: 960px, 300px;
-    margin: 0 auto;
-    padding: 10px;
+header, nav, main, footer {
+	max-width: 960px;
+	margin: 0 auto;
 }
 
-main {
-    margin: 0 auto;
-    width: 960px;
-    background-color: lightgray;
-    padding: 15px;
+header {
+	background-image: url("assets/header.jpg");
+	height: 400px;
 }
 
-h2{
-    color: royalblue;
+header h1 {
+	color: #fff;
+	padding: 1rem 0 0 2%;
+	font-size: 3rem;
 }
 
-.goals{
-    list-style: square inside;
+header h2 {
+	color: #fff;
+	padding: .5rem 0 0 2%;
+	font-size: 2rem;
 }
 
-footer{
-    text-align: center;
-    background-color: royalblue;
-    color: whitesmoke;
-    padding: 5px;
-    font-size: 9pt;
-    border-radius: .2rem;
+@media only screen and (min-width: 601px) {
+	div.smallMenuLink {display: none;}
+	nav#smallNavSpace{display: none;}
+	ul#primaryNav {display: block;}
+	nav {background-color: #000;}
+	nav ul#primaryNav {
+		margin-left: 2%;
+		list-style: none;
+		margin:0;
+		padding: 0;
+    }
+
+	nav ul#primaryNav li {
+		float: left;
+		border-right: solid 1px rgba(0,0,0,0.3);
+    }
+
+	nav ul#primaryNav li a {
+		display:block;
+		color: #fff;
+		font-size: 1em;
+		padding: 1.2em .9em;
+		font-weight: bold;
+		text-decoration:none;
+    }
+
+	nav ul#primaryNav li a:hover {
+		color: #999;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+	nav#smallNavSpace{display: block; }
+	ul#primaryNav {display: none;}
+
+	nav#smallNavSpace {height:100vh; background-color: #666;}
+	nav#smallNavSpace ul  {padding: .5em 0;}
+	nav#smallNavSpace ul li {list-style: none;}
+	nav#smallNavSpace ul li a {
+		display: block;
+		list-style: none;
+		margin: .4em 2%;
+		padding: .6rem 0;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 6px;
+		color: white;
+		background-color: blue;
+	}
+
+	nav#smallNavSpace ul li a:hover {
+		background-color: royalblue;
+	}
+
+	div.smallMenuLink {
+		display: block;
+		background-color: #000;
+    }
+
+	div.smallMenuLink a {
+		display: block;
+		color: #FFF;
+		text-decoration: none;
+		padding: .6rem;
+	}
+}
+
+main h1 {
+	color:#9B0401;
+	padding: 1rem 0 0 2%;
+}
+
+main h2 {
+	color: #9B0401;
+	padding: .6rem 0 0 2%;
+}
+
+main p {padding: .2rem 0 0 2%; line-height: 150%;}
+
+main ul {margin: 0;}
+main ul.objectives li {
+	margin-left: 3rem;
+}
+
+main img.mainPhoto {width: 75%;}
+
+footer {
+	background-color: #000;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	padding: .5rem 0;
+}
+
+.keepOpen{
+	clear:both;
 }
