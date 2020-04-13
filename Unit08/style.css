@@ -22,14 +22,32 @@ h2{
     color: royalblue;
 }
 
-#goals{
+.goals{
     list-style: square inside;
 }
 
-textarea {
-    border-radius: .2rem;
-    width: 150px;
-    height: 100px;
+#stem{
+    width: 75%;
+    background-color: lightcoral;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.feedback {
+    background-color: silver;
+    height: 25px;
+    width: 75%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 75%;
+    height: 20px;
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 footer{
