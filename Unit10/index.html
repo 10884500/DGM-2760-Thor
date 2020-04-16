@@ -2,32 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Pizza Emporium</title>
+    <title>Hotel Booking</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <main>
       <header>
-        <h1>Pizza Emporium</h1>
-        <h2>Literal Objects</h2>
+        <h1>Hotel Washington</h1>
+        <h2>You might want to leave</h2>
       </header>
 
-      <h1>Pizza Emporium</h1>
+      <h1>Hotel Washington</h1>
 
       <h2>What I learned</h2>
       <ul class="goals">
-        <li>Creation of object literals with properties and methods</li>
-        <li>Setting properties in an object</li>
-        <li>Accessing properties and methods of objects</li>
-        <li>Use of math operators and template literals</li>
-        <li>
-          Use of querySelectors and textContent to dynamically change text on a
-          screen
-        </li>
+        <li>Create external JSON file</li>
+        <li>Load JSON file using Fetch API</li>
+        <li>Use of a catch...try block</li>
+        <li>How to retrieve and store resolved Promise data</li>
+        <li>Display data from a JSON file on a webpage with 3 different buttons</li>
       </ul>
 
-      <h2>Pizza Size</h2>
+      <h2>Choose your char... hotel!</h2>
+      <ul class="hotels">
+          <li><a href="#" id="falco">Falco</a></li>
+          <li><a href="#" id="link">Link</a></li>
+          <li><a href="#" id="greninja">Greninja</a></li>
+      </ul>
       
+      <h2 id="hotelName">Hotel</h2>
+      <h3>Address: <span id="address"></span></h3>
+      <p>Number of rooms: <span id="rooms"></span></p>
+      <p>Gym available: <span id="gym"></span></p>
+      <p>Room types: <span id="type"></span></p>
 
       <footer>Assignment for DGM2760 by Trevor Thompson</footer>
     </main>

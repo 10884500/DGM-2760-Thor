@@ -5,10 +5,11 @@ html {
 header {
     height: 300px;
     max-width: 960px;
-    background-image: url('assets/header.jpg');
+    background-image: url('assets/header.jpeg');
     background-size: 960px, 300px;
     margin: 0 auto;
     padding: 10px;
+    color: white;
 }
 
 main {

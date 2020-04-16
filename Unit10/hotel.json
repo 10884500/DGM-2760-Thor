@@ -1,0 +1,27 @@
+{
+    "hotels": [
+        {
+        "name" : "Falco",
+        "rooms" : "3",
+        "gym" : "Yes",
+        "roomType" : ["Fast speed", "Strong", "Close"],
+        "address" : "64, Melee, Brawl, WiiU, Ultimate",
+        "picture" : "falco.jpg"
+        },
+        {
+        "name" : "Link",
+        "rooms" : "9",
+        "gym" : "Yes",
+        "roomType" : ["Medium speed", "Strong", "Medium"],
+        "address" : "64, Melee, Brawl, WiiU, Ultimate",
+        "picture" : "link.jpg"
+        },
+        {"name" : "Greninja",
+        "rooms" : "7",
+        "gym" : "No",
+        "roomType" : ["Fast speed", "Weak", "Close"],
+        "address" : "WiiU, Ultimate",
+        "picture" : "greninja.jpg"
+        }
+    ]
+}
