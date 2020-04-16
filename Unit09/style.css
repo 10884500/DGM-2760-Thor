@@ -33,7 +33,7 @@ header{
 	}
 	nav ul#primaryNavigation li {
 		float: left;
-        border-right: solid 1px lightblue; 
+        border: solid 1px lightblue; 
 	}
 	nav ul#primaryNavigation li a { 
 		display:block;
