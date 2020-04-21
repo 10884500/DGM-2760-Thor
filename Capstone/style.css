@@ -20,6 +20,10 @@ header {
   border-radius: 3px;
 }
 
+#click {
+  color: royalblue;
+}
+
 main {
   margin: 0 auto;
   width: 960px;
@@ -63,6 +67,7 @@ ul.characters li {
 
 .fighter-select {
   padding-right: 5rem;
+  text-decoration: underline;
 }
 
 .fighter-info {
