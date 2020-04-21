@@ -64,6 +64,7 @@ ul.characters li {
 #picture {
   height: 20rem;
   width: auto;
+  cursor: pointer;
 }
 
 /* Audio Player */
@@ -90,6 +91,7 @@ ul.characters li {
   height: 350px;
   width: 250pt;
   border-radius: 8px;
+  transition: 1s;
 }
 
 .song-name {
