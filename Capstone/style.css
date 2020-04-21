@@ -96,6 +96,7 @@ ul.characters li {
   background-position: center;
   background-size: 190%;
   border-radius: 8px;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 40%);
 }
 
 .thumbnail {
