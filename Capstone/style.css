@@ -1,0 +1,124 @@
+html {
+  background-color: darkgray;
+}
+
+header {
+  height: 300px;
+  max-width: 960px;
+  background-image: url('../Unit10/assets/header.jpeg');
+  background-size: 960px, 300px;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  background-color: lightgray;
+  padding: 15px;
+}
+
+h2 {
+  color: royalblue;
+}
+
+#goals {
+  list-style: square inside;
+}
+
+footer {
+  text-align: center;
+  background-color: royalblue;
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 9pt;
+  border-radius: .2rem;
+}
+
+ul.characters li a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+ul.characters li {
+  display: block;
+  background-color: silver;
+  width: 7rem;
+  padding: 5px;
+  font-size: 20pt;
+}
+
+.fighter {
+  display: flex;
+}
+
+.fighter-select {
+  padding-right: 5rem;
+}
+
+.fighter-info {
+  width: 15rem;
+}
+
+#picture {
+  height: 20rem;
+  width: auto;
+}
+
+/* Audio Player */
+
+.container {
+  height: 350px;
+  width: 250pt;
+  margin: auto;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Capstone/assets/finalDest.jpg);
+  background-position: center;
+  background-size: 190%;
+  border-radius: 8px;
+}
+
+.thumbnail {
+  position: absolute;
+  backdrop-filter: blur(1px);
+  height: 350px;
+  width: 250pt;
+  border-radius: 8px;
+}
+
+.song-name {
+  z-index: 2;
+  color: white;
+  font-size: 12pt;
+  background-color: rgba(0, 0, 0, 75%);
+  margin-bottom: 92%;
+  height: auto;
+  width: 250pt;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+  height: 190pt;
+  width: 400pt;
+  bottom: -20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.fighterName {
+  z-index: 2;
+  color: white;
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 75%);
+  margin-top: 75%;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}

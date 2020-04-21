@@ -1,0 +1,28 @@
+{
+    "fighter": [
+        {
+        "name" : "Falco",
+        "maps" : "3",
+        "rangedSpecial" : "Yes",
+        "type" : ["Fast, Strong, Close-range"],
+        "apperances" : "64, Melee, Brawl, WiiU, Ultimate",
+        "picture" : "../Unit10/assets/falco.jpg"
+        },
+        {
+        "name" : "Link",
+        "maps" : "9",
+        "rangedSpecial" : "Yes",
+        "type" : ["Medium, Strong, Medium-range"],
+        "apperances" : "64, Melee, Brawl, WiiU, Ultimate",
+        "picture" : "../Unit10/assets/link.jpg"
+        },
+        {
+        "name" : "Greninja",
+        "maps" : "7",
+        "rangedSpecial" : "Yes",
+        "type" : ["Fast, Weak, Close-range"],
+        "apperances" : "WiiU, Ultimate",
+        "picture" : "../Unit10/assets/greninja.jpg"
+        }
+    ]
+}

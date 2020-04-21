@@ -1,17 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel="stylesheet" />
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fighter Select</title>
+    <link href="/Capstone/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Hotel Ultimate</h1>
+        <h2>You might want to leave</h2>
+      </header>
 
-    <title>CapStone</title>
-</head>
- 
-<body>
+      <h1>Hotel Ultimate</h1>
 
- 
+      <h2>What I learned</h2>
+      <ul class="goals">
+        <li>Create external JSON file</li>
+        <li>Load JSON file using Fetch API</li>
+        <li>Use of a catch...try block</li>
+        <li>How to retrieve and store resolved Promise data</li>
+        <li>
+          Display data from a JSON file on a webpage with 3 different buttons
+        </li>
+      </ul>
 
-    <script type="text/javascript" src="/Capstone/main.js"></script>
+      <h2>Choose your FIGHTER!!</h2>
+      <div class="fighter">
+        <div class="fighter-select">
+          <ul class="characters">
+            <li><a href="#!" id="falco">Falco</a></li>
+            <li><a href="#!" id="link">Link</a></li>
+            <li><a href="#!" id="greninja">Greninja</a></li>
+          </ul>
+        </div>
+        <div class="fighter-info">
+          <h2 id="fighterName">Character</h2>
+          <h3>Apperances: <span id="apperances"></span></h3>
+          <p>Number of Maps (Ultimate): <span id="maps"></span></p>
+          <p>Do they hit the Gym: <span id="rangedSpecial"></span></p>
+          <p>Fighting types: <span id="type"></span></p>
+        </div>
+
+
+        <div class="container">
+          <div class="song-name">A NEW CHALENGER APPROACHES</div>
+          <div class="fighterName"></div>
+          <img id="picture" class="thumbnail" />
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <footer>Assignment for DGM2760 by Trevor Thompson</footer>
+    </main>
+  </body>
+  <script type="text/javascript" src="/Capstone/main.js"></script>
 </html>
