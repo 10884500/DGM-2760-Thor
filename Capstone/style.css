@@ -5,11 +5,19 @@ html {
 header {
   height: 300px;
   max-width: 960px;
-  background-image: url('../Unit10/assets/header.jpeg');
+  background-image: url('/Capstone/assets/header.png');
   background-size: 960px, 300px;
   margin: 0 auto;
   padding: 10px;
   color: white;
+}
+
+#scrim {
+  background-color: rgba(0, 0, 0, 75%);
+  height:auto;
+  width: 30%;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 main {

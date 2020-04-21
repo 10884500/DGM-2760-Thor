@@ -8,30 +8,19 @@
   <body>
     <main>
       <header>
-        <h1>Hotel Ultimate</h1>
-        <h2>You might want to leave</h2>
+        <h1 id="scrim">Super Smash Ultimate</h1>
+        <h2 id="scrim">Learn about your fighters!</h2>
       </header>
 
-      <h1>Hotel Ultimate</h1>
-
-      <h2>What I learned</h2>
-      <ul class="goals">
-        <li>Create external JSON file</li>
-        <li>Load JSON file using Fetch API</li>
-        <li>Use of a catch...try block</li>
-        <li>How to retrieve and store resolved Promise data</li>
-        <li>
-          Display data from a JSON file on a webpage with 3 different buttons
-        </li>
-      </ul>
+      <h1>Fighter Selection</h1>
 
       <h2>Choose your FIGHTER!!</h2>
       <div class="fighter">
         <div class="fighter-select">
           <ul class="characters">
-            <li><a href="#!" id="falco">Falco</a></li>
-            <li><a href="#!" id="link">Link</a></li>
-            <li><a href="#!" id="greninja">Greninja</a></li>
+            <li><a href="#!" id="falco" onclick="falcoAudio()" onclick="playPause()">Falco</a></li>
+            <li><a href="#!" id="link" onclick="linkAudio()">Link</a></li>
+            <li><a href="#!" id="greninja" onclick="grenAudio()">Greninja</a></li>
           </ul>
         </div>
         <div class="fighter-info">
@@ -42,7 +31,7 @@
           <p>Fighting types: <span id="type"></span></p>
         </div>
 
-        <audio loop src="/Capstone/assets/Falco Voices - Super Smash Bros Ultimate.mp4" id="song"></audio>
+        <audio src="" id="audio"></audio>
         <div class="container">
           <div class="song-name">A NEW CHALENGER APPROACHES</div>
           <div class="fighterName"></div>
