@@ -36,7 +36,7 @@ main {
   height: 260px;
   margin: 10px 0;
   perspective: 600px;
-  cursor: url(/images/pBall.cur), pointer;
+  cursor: url(/Capstone/assets/pBall.cur), pointer;
 }
 
 .card.is-flipped {
@@ -90,7 +90,7 @@ main {
 
 html {
   background-color: rgb(58, 60, 61);
-  cursor: url(/images/pBall.cur), pointer;
+  cursor: url(/Capstone/assets/pBall.cur), pointer;
 }
 
 div.scene {
@@ -134,9 +134,9 @@ div.scene {
 }
 
 html {
-  background-image: url(/images/pro-oak.png);
+  background-image: url(/Capstone/assets/proOak.png);
   background-repeat: no-repeat;
-  background-position: 50% 4%;
+  background-position: 50% 20%;
 }
 
 @keyframes bounce {
