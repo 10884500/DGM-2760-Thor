@@ -80,6 +80,10 @@ ul.characters li {
   cursor: pointer;
 }
 
+span {
+  color: royalblue;
+}
+
 /* Audio Player */
 
 .container {
